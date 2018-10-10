@@ -1,0 +1,105 @@
+.app-container {
+  height: 800px;
+}
+
+.Dashboard-root-1{
+  height: 100%;
+}
+
+#dashboard-container{
+  display:flex;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error-container {
+  display: flex;
+  justify-content: center;
+}
+
+#error-background-container{
+  font-family: sans-serif;
+  display: flex;
+  flex-flow: column;
+  background-color: #83AEDA;
+  align-items: center;
+  justify-content: center;
+}
+
+#loading-background-container{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.general-image-size{
+  height: 50%;
+}
+
+.important-messages {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.error-messages {
+  margin-top: 100px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+#home{
+  background-color: #83AEDA;
+}
+
+#bonding {
+  background-color:#83AEDA;
+  /* background-color: #D5C5E5; */
+}
+#unbonding{
+  background-color: #83AEDA;
+}
+#injections{
+  background-color: #83AEDA;
+}
+#temperature{
+  background-color: #83AEDA;
+}
+#battery{
+  background-color: #83AEDA;
+}
+#errors{
+  background-color: #83AEDA;
+}
+
+#homepage-container{
+  display: flex;
+  flex-flow:column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+#date-picker-container{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+    padding: 0px
+}
+
+input .MuiSwitchBase-input-160{
+  background-color: red;
+}
