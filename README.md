@@ -13,3 +13,6 @@ $ cd time-series-dashboard
 $ npm install
 
 $ npm start
+
+
+* [YOUTUBE VIDEO](https://www.youtube.com/watch?v=W2VAWZ86AIs&feature=youtu.be) - Video walkthrough of Dashboard
